@@ -1,0 +1,19 @@
+void main(){
+  
+
+  
+ Map<int,String> name = {
+   1 : "sdf",
+   2: "dfe",
+   3:"shiv"
+ };
+  
+  print(name.keys);
+  print(name.values);
+  name[1]="name";
+   print(name.values);
+  name.remove(1);
+  print(name);
+  name[4]="dates";
+  print(name);
+}
